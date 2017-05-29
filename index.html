@@ -36,11 +36,38 @@
 		    		background-color: black;
 		     }
 
+		     .formulario{
+		     		border: 3px solid white;
+		    		border-radius: 5px;
+		    		background-color: black;
+		    		color: white;
+
+		     }
+
+		     	.jumbotron{
+		     		background-color: black;
+		     		color: #550000;
+		     		}
+
+		     		.rodape{
+		     			color: white;
+		    			background-color: black;
+		     		}
+		     		.a1{
+		     			color: blue;
+		     		}
+		     		.a2{color: green; }
+
+		     		.a3{ color: red; }
+
+
+
+
 		</style>
 	</head>
 	<body>
 
-			 <nav class="navbar navbar-inverse"><!--barra de Navegação-->
+			 <nav class="navbar navbar-inverse navbar-fixed-top"><!--barra de Navegação-->
   				<div class="container-fluid">
    					 <div class="navbar-header">
     					<img class="navbar-brand" src="imagens/Logo%20FCM.jpg"/>
@@ -56,6 +83,7 @@
     		   </ul>
   		 	</div>
 		</nav> 									
+
 				<div class="container"> <!-- Carousel de Imagens-->
   					<div id="myCarousel" class="carousel slide" data-ride="carousel">
     					<!-- Indicadores-->
@@ -92,9 +120,11 @@
     	   </a>
   		</div>
 	</div>
-
+			<br>
+			<br>
+			<br>
 			
-			<h1 class="text-center"><font color="White"> O Que Fazemos?</font></h1> <!--O que Fazemos-->
+			<div class="jumbotron text-center"><h1>O Que Fazemos ?</h1></div><!--O que Fazemos-->
 			<div class="container">
 				<div class="row">
 					<div class="col-md-3"></div>
@@ -110,26 +140,38 @@
 					  </div>
 					</div>
 
-
-								<h1 class="text-center"><font color="White">Sobre O Site</font></h1><!--Sobre O Site-->
+				<br>
+							<div class="jumbotron text-center"><h1>Sobre o Site</h1></div><!--Sobre O Site-->
 							<div class="container">
-							<div class="row">
-							<div class="col-md-6 col-md-offset-3">
-							<p class="bg-info center-block"><font color="Black" size="6"> O site foi Criado especialmente para amantes de Carros Antigos Todos os Post ou Maior Parte é Dedicado para Apaixonados por Carros Clássicos.</font></p>
-							</div>
-							</div>
+								<div class="row">
+									<div class="col-md-6 col-md-offset-3">
+										<p class="bg-info center-block"><font color="Black" size="6"> O site foi Criado especialmente para amantes de Carros Antigos Todos os Post ou Maior Parte é Dedicado para Apaixonados por Carros Clássicos.</font></p>
+									</div>
+								</div>
 							</div>
 
+			<br>
 					<!--Desevolvedor-->
-				    <h1 class="text-center"><font color="White">Desenvolvedor</font></h1>
-				    <img class="center-block" src="imagens/Perfil/Foto Natanael.jpeg" class="img-rounded" alt="Natanael">
-					<h1 class="text-center"><font color="White">Criador e Desenvolvedor.</font></h1>
-
+				    <div class="jumbotron text-center"><h1>Desenvolvedor</h1></div>
+				   		 <img height="300" width="300" class="center-block img-circle" src="imagens/Perfil/Foto Natanael.jpeg" alt="Natanael">
+						<h1 class="text-center jum"><font color="White">Criador e Desenvolvedor.
+						</font>
+						</h1>
+					<br>
+					<br>
+					<br>
 						<!--Contato-->
-			<font color="White"><h1 class="text-center">Contato Com o Site</h1></font>
+			<div class="jumbotron text-center"><h1>Contato</h1></div>
 			<div  class="container">
 					<div class="row">
-						<div class="col-md-6 col-md-offset-3 formulario">
+					<div class="col-md-1"></div>
+						<div class="col-md-4 formulario">
+							<p><h3>E-mail: forcarmaniacs@gmail.com</h3></p>
+							<p><h3>Tel: (85) 989859782</h3></p>
+							<p><h3>Facebook: Natanael Gutemberg</h3></p>
+					</div>
+					<div class="col-md-2"></div>
+						<div class="col-md-4 formulario">
 							 <div class="form-group">
   									<label for="usr"><font color="White">Nome:</font></label>
   										<input type="text" class="form-control" id="usr">
@@ -143,18 +185,24 @@
   									<textarea class="form-control" rows="5" id="Comente"></textarea>
 									<form><input type="submit" name="Enviar"></form>
 							</div> 
-							
-
 
 						</div>
+						<div class="col-md-1"></div>
 					</div>	
 				</div>
+			<br>
+			<br>
 
 
 
 
-
-
+		<footer class="container-fluid text-center rodape"><!--Rodapé-->
+  				<p>
+  		<a class="a1" href="https://www.facebook.com"><span class="glyphicon glyphicon-hand-right">Facebook</span></a>  |
+  			<a class="a3" href="https://www.google.com/gmail/about/"><span class="glyphicon">&#x2709;</span>E-mail</a>
+  		|<a class="a2"  href="https://web.whatsapp.com/%F0%9F%8C%90/pt-br"><span class="glyphicon">&#xe182;</span>Whatsapp</a>
+				</p>
+		</footer>
 
 
 	</body>	
