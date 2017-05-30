@@ -1,0 +1,41 @@
+body {
+				background-color: #550000;
+			}
+			.float { 
+				float: left; 
+			}
+
+			.float-right{ 
+					float: right;
+
+		    }
+
+		    .formulario { 
+		    		border: 3px solid white;
+		    		border-radius: 5px;
+		    		background-color: black;
+		     }
+
+		     .formulario{
+		     		border: 3px solid white;
+		    		border-radius: 5px;
+		    		background-color: black;
+		    		color: white;
+
+		     }
+
+		     	.jumbotron{
+		     		background-color: black;
+		     		color: #550000;
+		     		}
+
+		     		.rodape{
+		     			color: white;
+		    			background-color: black;
+		     		}
+		     		.a1{
+		     			color: blue;
+		     		}
+		     		.a2{color: green; }
+
+		     		.a3{ color: red; }
