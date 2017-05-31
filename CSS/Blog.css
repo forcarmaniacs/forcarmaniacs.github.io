@@ -1,0 +1,29 @@
+.font{	background-color: black;
+				}		
+				.Postagem{ border-radius: 10px;
+				}
+
+				.font-fontastique {
+					font-family: 'fontastique';
+					src: url('Fonts/fontastique.ttf');
+					font-weight: normal;
+					font-style: normal;
+				}
+
+				.blog-data .dia{
+  						font-size: 36pt;
+				}
+				.blog-data .mes{
+  						font-size: 12pt;
+				}
+
+
+				.blog-data{
+  					background-color: black;
+  					color: #fff;
+  					border-radius: 3px;
+				}
+
+				.PostBackground{ background-color: blue;
+
+				}
