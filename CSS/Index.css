@@ -1,13 +1,13 @@
 body {
-				background-color: #550000;
+				background-color: #550000; /*Cor do Fundo.*/
 			}
 			.float { 
-				float: left; 
+				float: left; 		/*Alinhar imagem a direita*/
 			}
 
 			.float-right{ 
-					float: right;
-
+					float: right;		/*Alinhar imagem a direita*/
+ 
 		    }
 
 		    .formulario { 
@@ -16,7 +16,7 @@ body {
 		    		background-color: black;
 		     }
 
-		     .formulario{
+		     .formulario{						/*Formúlario de Contato*/
 		     		border: 3px solid white;
 		    		border-radius: 5px;
 		    		background-color: black;
@@ -24,23 +24,23 @@ body {
 
 		     }
 
-		     	.jumbotron{
+		     	.jumbotron{						/*Jumbotron de Titulos*/
 		     		background-color: black;
 		     		color: #550000;
 		     		}
 
-		     		.rodape{
+		     		.rodape{				/*Rodapé*/
 		     			color: white;
 		    			background-color: black;
 		     		}
 		     		.a1{
-		     			color: blue;
+		     			color: blue;		/*Cores do links do Rodapé*/
 		     		}
 		     		.a2{color: green; }
 
 		     		.a3{ color: red; }
 
-		     		.jumbotron1{
+		     		.jumbotron1{					/*Jumbotron do "Sobre".*/
 		     			background-color: grey;
 		     			color: white;
 		     		}

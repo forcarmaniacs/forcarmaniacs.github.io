@@ -1,4 +1,4 @@
-.Formulário{ border-radius: 6px;
+.Formulário{ border-radius: 6px;/*Css do Formúlario*/
 							 border: 6px;
 							 border-style: solid;
 							 background-color: white;
@@ -6,7 +6,7 @@
 				 }		
 
 				 	.button {
-    					background-color: green;
+    					background-color: green;/*CSS do Botão Masculino*/
    					    border: none;
    					    color: white;
    					    padding: 15px 32px;
@@ -17,3 +17,16 @@
     					margin: 4px 2px;
     					cursor: pointer;
 						}
+
+            .button2 {/*CSS do Botão Feminino*/
+              background-color: pink;
+                border: none;
+                color: black;
+                padding: 15px 32px;
+                text-align: center;
+              text-decoration: none;
+              display: inline-block;
+              font-size: 16px;
+              margin: 4px 2px;
+              cursor: pointer;
+            }
